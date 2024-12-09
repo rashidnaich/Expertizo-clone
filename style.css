@@ -631,3 +631,44 @@ h3 {
 .containerlast a:hover {
     color: #4154f1;
 }
+@media (max-width: 767px) {
+    .header .ul ul {
+        display: none;
+    }
+
+    .header .img img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .ele {
+        width: 90%;
+        text-align: center;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .vivo {
+        margin-bottom: 20px;
+    }
+
+    .heading, .heading2 {
+        text-align: center;
+    }
+
+    .imgbox img {
+        width: 100%;
+        height: auto;
+    }
+}
